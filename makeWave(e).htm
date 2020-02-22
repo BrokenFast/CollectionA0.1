@@ -1,0 +1,42 @@
+<html><div>EMANATE</div>
+    <style>div{
+    float: left;
+    width: 1500px; 
+    height: 1200px;
+    margin: 3px;
+    color: red;
+    background: repeating-radial-gradient(red, orange, yellow, green, LightGreen, blue, Lightblue,  purple, pink, silver 28px);
+    
+    animation-name: emanate;
+    animation-duration: 20s;
+    animation-iteration-count:10;
+    
+    -webkit-animation-name: emanate;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-iteration-count:10;
+}
+
+@keyframes emanate{
+    0% {background: repeating-radial-gradient(red, orange, yellow, green, LightGreen, blue, Lightblue, purple, pink, silver 28px)}
+    
+    10% {background: repeating-radial-gradient( silver, red, orange, yellow, green, LightGreen, blue, Lightblue,  purple, pink 28px)}
+    
+    20% {background: repeating-radial-gradient( pink, silver, red, orange, yellow, green, LightGreen, blue, LightBlue, purple 28px)}
+    
+    30% {background: repeating-radial-gradient( purple, pink, silver, red, orange, yellow, green, LightGreen, blue, LightBlue 28px)}
+    
+    40% {background: repeating-radial-gradient( Lightblue, purple, pink, silver, red, orange, yellow, green, LightGreen, blue 28px)}
+    
+    50% {background: repeating-radial-gradient(blue, Lightblue,  purple, pink, silver, red, orange, yellow, green, LightGreen 28px)}
+    
+    60% {background: repeating-radial-gradient(LightGreen, blue, Lightblue, purple, pink, silver, red, orange, yellow, green 28px)}
+    
+    70% {background: repeating-radial-gradient(green, LightGreen, blue, Lightblue, purple, pink, silver, red, orange, yellow 28px)}
+    
+    80% {background: repeating-radial-gradient(yellow, green, LightGreen, blue, Lightblue, purple, pink, silver, red, orange 28px)}
+    
+    90% {background: repeating-radial-gradient(orange, yellow, green, LightGreen, blue, Lightblue, purple, pink, silver, red 28px)}
+    
+    100% {background: repeating-radial-gradient(red, orange, yellow, green, LightGreen, blue, Lightblue, purple, pink, silver 28px)}
+    
+    </style></html>
